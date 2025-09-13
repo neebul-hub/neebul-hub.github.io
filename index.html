@@ -69,7 +69,7 @@
     .hero-left p.lead{color:var(--muted);max-width:62ch;margin-bottom:0;}
     .hero-right{
       flex-shrink:0;
-      width:280px;       /* largura fixa controlada no desktop */
+      width:450px;       /* largura no desktop */
       max-width:100%;
       display:flex;
       align-items:center;
@@ -122,8 +122,8 @@
 
     /* Breakpoints */
     @media (max-width:960px){
-      .hero{flex-direction:column-reverse; align-items:flex-start; flex-wrap:wrap;}
-      .hero-right{width:100%; max-width:220px; margin-bottom:16px;}
+      .hero{flex-direction:column; align-items:flex-start; flex-wrap:wrap;}
+      .hero-right{width:100%; max-width:220px; margin-top:12px; align-self:center;}
       .team-grid{grid-template-columns:repeat(2,1fr)}
       .grid-3{grid-template-columns:repeat(2,1fr)}
       .contact-grid{grid-template-columns:1fr}
